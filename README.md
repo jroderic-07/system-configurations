@@ -23,3 +23,8 @@ To use scripts:
 or
 
 > export PATH="<repo_path>/scripts:$PATH" 
+
+## Setup Instructions
+This repository contains instructions on how I set-up my system. These include:
+- Shell/terminal setup
+- Vim setup
