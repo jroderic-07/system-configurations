@@ -19,5 +19,7 @@ This repository contains various scripts, including:
 
 To use scripts:
 > cd scripts && ./update_and_upgrade.sh <operating_system>
+
 or
+
 > export PATH="<repo_path>/scripts:$PATH" 
