@@ -6,22 +6,27 @@ This repository contains various configuration files, including:
 - Zsh aliases
 - Vim configuration
 - TMux configuration
+- Zsh configuration
 
 To apply configurations:
-> cd dotfiles && ./apply_configurations.sh
+> ./scripts/apply_configurations.sh <directory to backup old files>
 
-Once the configurations have been applied, to update this repository with any new changes run:
+Once the confiruations have been applied, to load them run:
+> reload-zsh
+or
+> source ~/.zshrc
+
+If you update the configurations in your home directory, you can export them to this clone of the repository by running:
 > export-configs
+
+To revert back to using an older version of your configuration files, run:
+> ./scripts/restore_configurations <directory of backed up files> 
 
 ## Scripts
 This repository contains various scripts, including:
-- Update and upgrade packages
-
-To use scripts:
+- Update and upgrade packages:
 > cd scripts && ./update_and_upgrade.sh <operating_system>
-
 or
-
 > export PATH="<repo_path>/scripts:$PATH" 
 
 ## Setup Instructions
