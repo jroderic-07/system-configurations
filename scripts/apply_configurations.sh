@@ -9,4 +9,3 @@ cat dotfiles/.vimrc > ~/.vimrc
 cat dotfiles/.tmux.conf > ~/.tmux.conf
 cat dotfiles/.aliases > ~/.aliases
 cat dotfiles/.zshrc > ~/.zshrc
-source ~/.zshrc
