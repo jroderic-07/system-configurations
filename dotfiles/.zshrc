@@ -8,6 +8,7 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 export GOPATH=$HOME/go
+export PATH=$PATH:/usr/local/go/bin
 
 if [ -f ~/.aliases ]; then
 . ~/.aliases
