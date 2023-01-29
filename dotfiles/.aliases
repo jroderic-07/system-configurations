@@ -17,6 +17,3 @@ alias getIP='curl ifconfig.io'
 
 # Export Configurations
 alias export-configs='cat ~/.aliases > Documents/repos/github/jroderic-07/system_tools/dotfiles/.aliases && cat ~/.vimrc > Documents/repos/github/jroderic-07/system_tools/dotfiles/.vimrc && cat ~/.tmux.conf > Documents/repos/github/jroderic-07/system_tools/dotfiles/.tmux.conf && cat ~/.zshrc > Documents/repos/github/jroderic-07/system_tools/dotfiles/.zshrc'
-
-# Misc
-alias glow='$GOPATH/bin/glow'
