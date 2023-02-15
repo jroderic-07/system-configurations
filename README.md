@@ -1,4 +1,4 @@
-# System Tools
+# System Configurations
 Various files, scripts and cheatsheets to be used for configuring and using my UNIX-based systems.
 
 ## Dotfiles
