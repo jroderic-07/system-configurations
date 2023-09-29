@@ -4,6 +4,9 @@ alias reload-zsh='source ~/.zshrc'
 # Vim
 alias v='vim'
 
+# Init Go Project
+alias init-go-cli='git clone https://github.com/jroderic-07/flags-cli-template.git'
+
 # TMux
 alias t='tmux'
 alias tn='tmux new -s'
